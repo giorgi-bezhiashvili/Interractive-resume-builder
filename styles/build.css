@@ -1,0 +1,126 @@
+.formContainer {
+    border: 2px solid black;
+    width: 500px; /* Prevents it from being too large */
+    border-radius: 10px;
+    padding: 10px; /* Adds space inside */
+}
+
+.oneOfForms {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if items don't fit */
+    align-items: center; /* Aligns inputs and text */
+    gap: 10px;
+}
+
+.inputOneOf{
+    width: 190px;
+    margin: 10px;
+}
+.form-group{
+    display: flex;
+}
+main{
+    display: flex;
+}
+.submit{
+    width: 60px;
+    height: 30px;
+    box-shadow: 5px 3px 5px 3px grey;
+    margin: 20px;
+}
+.colors-h1{
+    font-size: 18px;
+}
+.colors{
+    border: 3px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 10px;
+}
+.Midnight-Elegance{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    color: #ffffff;
+}
+.theme{
+    background-color: black;
+    color: gold;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.Navy-Prestige{
+    background: rgb(29,53,87);
+    background: linear-gradient(90deg, rgba(29,53,87,1) 20%, rgba(168,168,168,1) 100%);
+    color: #ffffff;
+}
+.Emerald-Opulence{
+    background: rgb(47,79,79);
+    background: linear-gradient(90deg, rgba(47,79,79,1) 0%, rgba(245,245,220,1) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.theme2{
+    background-color: rgb(55, 72, 255);
+    color: #ffffff;
+}
+.Teal-Sophistication{
+    background: rgb(0,128,128);
+    background: radial-gradient(circle, rgba(0,128,128,1) 0%, rgba(74,74,74,1) 100%);
+    color: #ffffff; 
+}
+.Crimson-Essence{
+    background: rgb(128,0,32);
+    background: radial-gradient(circle, rgba(128,0,32,1) 0%, rgba(211,211,211,1) 100%); 
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+}
+.Royal-Clarity{
+    background: rgb(65,105,225);
+    background: radial-gradient(circle, rgba(65,105,225,1) 0%, rgba(255,255,255,1) 100%);
+}
+.Urban-Simplicity{
+    background: rgb(176,176,176);
+    background: radial-gradient(circle, rgba(176,176,176,1) 0%, rgba(255,255,255,1) 100%);
+}
+.theme3{
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+.Earthly-Poise{
+    background: rgb(245,245,220);
+    background: radial-gradient(circle, rgba(245,245,220,1) 0%, rgba(92,64,51,1) 100%);
+    color: #3B3B3B;
+    font-weight: 800;
+}
+.Nordic-Cool{
+    background: rgb(169,214,229);
+    background: radial-gradient(circle, rgba(169,214,229,1) 0%, rgba(52,58,64,1) 100%);
+    color: #ffffff;
+}
+.theme4{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+.Corporate-Authority{
+    background: rgb(44,62,80);
+    background: radial-gradient(circle, rgba(44,62,80,1) 0%, rgba(236,240,241,1) 100%);
+}
+.Creative-Energy{
+    background: rgb(255,107,107);
+    background: radial-gradient(circle, rgba(255,107,107,1) 0%, rgba(30,30,30,1) 100%);
+    color: #ffffff;
+}
+.Tech-Innovation{
+    background: rgb(52,152,219);
+    background: radial-gradient(circle, rgba(52,152,219,1) 0%, rgba(44,62,80,1) 100%);
+    color: #ffffff;
+}
+.Healthcare-Trust{
+    background: rgb(93,173,226);
+    background: radial-gradient(circle, rgba(93,173,226,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-weight: 800;
+}
+.builder{
+    display: flex;
+}

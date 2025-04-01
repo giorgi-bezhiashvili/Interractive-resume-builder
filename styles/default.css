@@ -1,0 +1,146 @@
+:root{
+    --primary : #1E293B;
+    --secondary: #64748B;
+    --Accent : #FACC15;
+    --background :  #F8FAFC;
+    --text:#0F172A;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+button{
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.userImg{
+    width: 40px;
+}
+.ls{
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    
+}.navUp {
+    margin: 18px;
+    display: flex;
+    justify-content: space-between; /* Ensure proper spacing */
+    align-items: center; /* Align vertically */
+    padding: 10px 20px; /* Optional: Adds padding */
+}
+
+.user-About {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between image and buttons */
+}
+
+.ls {
+    height: 35px; /* Adjusted height */
+    width: 90px;  /* Adjusted width */
+    font-size: 16px; /* Adjusted font size */
+    padding: 5px; /* Adds internal spacing */
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    color: var(--text);
+    position: relative;
+    padding-bottom: 5px; /* Ensures bottom spacing */
+    display: inline-block; /* Prevents unwanted stretching */
+    font-size: 18px;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--secondary);
+    transition: width 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 100%;
+}
+.logoClass{
+    background-color: var(--Accent);
+    border-radius: 5px;
+}
+.resumeCard {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    font-size: 20px;
+    border: 2px solid var(--secondary);
+    border-radius: 15%;
+    padding: 15px;
+    margin-left: 40px; /* Move it towards the left */
+    text-align: left; /* Ensure text is left-aligned */
+    position: absolute;
+    top: 250px;
+}
+
+.happyImg {
+    margin-left: 130px;
+    width: 210px;
+    height: 200px;
+    border-radius: 40%;
+    box-shadow: 10px 10px 20px rgba(252, 206, 0, 0.863);
+}
+
+
+.pResume{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 18px;
+}
+.imgBld{
+    margin-top: -90px;
+    position: relative;
+}
+.resume {
+    width: 100%;
+    margin-top: 10px; 
+}
+.popupContainer {
+    width: 60%;
+    background-color: var(--Accent);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Initially hidden */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensures it's above other elements */
+    border: 5px solid black;
+}
+
+/* When popup is active */
+.show-popup {
+    display: block !important;
+}
+.closePopUp{
+    cursor: pointer;
+}
+.start-building-btn{
+    border: 6px solid black;
+    cursor: pointer;
+    margin-left: 37%;
+    font-size: 60px;
+}
