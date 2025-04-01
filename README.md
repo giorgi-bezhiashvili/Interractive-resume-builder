@@ -42,4 +42,4 @@ An interactive web application that allows users to create professional resumes 
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/interactive-resume-builder.git
+   git clone https://github.com/giorgi-bezhishvili/interactive-resume-builder.git
